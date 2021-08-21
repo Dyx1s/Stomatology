@@ -550,29 +550,11 @@ nav
 		position: absolute
 		left: 50%
 		list-style-type: none
-		li
-			margin: 32px 0 32px 0 
-			font-size: 20px
-			line-height: 28px
-			text-align: justify
-			letter-spacing: -0.025em
-			color: #000000
-		.world_link
-			text-transform: uppercase
-			color: black
-			text-decoration: none	
-		.small_link	
-			text-decoration: none
-			color: #000000
-			font-weight: 200
-			font-size: 20px
-			line-height: 29px
-			text-align: justify
-			letter-spacing: -0.015em
 	.clinic_chichkanova
 		position: absolute
 		list-style-type: none
-		left: 20%
+		left: 20%	
+	.clinic_rileeva, .clinic_chichkanova
 		li
 			margin: 32px 0 32px 0 
 			font-size: 20px
@@ -581,11 +563,22 @@ nav
 			letter-spacing: -0.025em
 			color: #000000
 		.world_link
+			font-family: Roboto
+			font-style: normal
+			font-weight: 300
 			text-transform: uppercase
-			color: black
+			color: #000000
 			text-decoration: none
-			font-weight: 300	
+			&:hover
+				text-decoration: none
+				color: #633778
+				font-weight: 700
+				transition: all 
+	
 		.small_link	
+			font-family: Roboto
+			font-style: normal
+			font-weight: 200
 			text-decoration: none
 			color: #000000
 			font-weight: 200
@@ -593,7 +586,14 @@ nav
 			line-height: 29px
 			text-align: justify
 			letter-spacing: -0.015em
+			&:hover
+				text-decoration: none
+				font-weight: 300
+				color: #633778
+				transition: all
+			
 
+/**  **/
 			
 	
 		
