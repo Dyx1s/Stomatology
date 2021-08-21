@@ -3,20 +3,20 @@ $main-color: #633778
 $second-color: #ff5656
 
 .none
-	transform: translate(0px, 120%)
+	transform: translate(0px, 120%)	
 
-=btn_hover
-	&:hover
-		background-image: none
+=btn_hover 
+	&:hover 
+		background-image: none 
 		background-color: $main-color
 
-*
+* 
 	font-family: 'Roboto', sans-serif
 	font-weight: 200
 h2, h3, .colortext, a, li, .services_title
 	font-family: 'Heebo', sans-serif
 p
-	text-align: justify
+	text-align: justify	
 
 header
 	position: relative
@@ -25,7 +25,7 @@ header
 	.firstheader
 		display: block
 		height: 78px
-		background: rgba(202, 193, 213, 1)
+		background: rgba(202, 193, 213, 1);
 		font-size: 15px
 		box-shadow: 0 0 10px rgba(0,0,0,0.2)
 		&_phone
@@ -42,7 +42,7 @@ header
 			margin-top: 28px
 			text-align: center
 		&_adress
-			margin-top: 20px
+			margin-top: 20px	
 			&::before
 				content: ''
 				position: absolute
@@ -60,19 +60,19 @@ header
 				height: 26px
 				left: -18px
 				top: 24px
-				background: url(../icons/time.png) center center no-repeat
+				background: url(../icons/time.png) center center no-repeat		
 
 nav
 	width: 100%
 	height: 110px
 	background-color: #fff
 	z-index: 5
-	background: rgba(255,255,255,0)
+	background: rgba(255,255,255,0);
 	position: absolute
 .menu
 	display: flex
 	justify-content: space-between
-	padding: 46px 0
+	padding: 46px 0 
 	margin: 0
 	list-style-type: none
 	z-index: 2
@@ -87,30 +87,28 @@ nav
 			transition: all 1s ease-out
 		&:hover .menu_link_btn
 			position: relative
-			/** font-weight: bold **/
 			text-decoration: none
 			border-bottom: 3px solid
 			padding-bottom: 11px
 			color: #633778
-			transition: all 0.3s ease, color 0.3s
+			transition: all 0.3s ease, color 0.3s;
 	&_link
 		position: relative
 		display: block
 		border: none
 		margin-right: 45px
-		padding: 15px 0
+		padding: 15px 0 
 		color: #212121
 		font-family: 'Heebo', sans-serif
 		font-size: 25px
 		font-weight: 500
 		&:hover
-			/** font-weight: bold **/
 			text-decoration: none
 			border-bottom: 3px solid
 			padding-bottom: 11px
 			color: #633778
 		&_btn
-			padding: 15px 0 15px
+			padding: 15px 0 15px 
 			margin-right: 15px
 			border: none
 			color: #212121
@@ -120,7 +118,7 @@ nav
 			background: rgba(255,255,255,0)
 			&_content
 				display: none
-				background: rgba(255,255,255,0.3)
+    			background: rgba(255,255,255,0.3)
 				line-height: 34px
 				padding-top: 15px
 				width: 1000px
@@ -129,13 +127,14 @@ nav
 				&_sub
 					color: black
 					font-size: 20px
-					text-decoration: none
+    				text-decoration: none
 					&:hover
 						/** font-weight: bold **/
 						text-decoration: none
 						border-bottom: none
 						padding-bottom: 1px
 						color: #633778
+
 
 .promo
 	width: 100%
@@ -152,7 +151,7 @@ nav
 	line-height: 1.5
 .wrapper
   height: 100%
-  margin: 200px 0 -100px 0
+  margin: 200px 0 -100px 0 
   position: relative
   width: 100%
 
@@ -161,20 +160,20 @@ nav
   overflow: hidden
   position: relative
   width: inherit
-h2
-	left: 135.28px
-	top: 395.28px
-	font-weight: 700
-	margin-right: -70px
-	font-size: 60px
-	line-height: 111.19%
-	text-transform: uppercase
-	letter-spacing: -0.025em
-	color: rgba(0, 0, 0, 0.9)
-p
-	color: #000000
-	font-size: 27px
-	margin-right: 200px
+  h2
+	  left: 135.28px
+	  top: 395.28px
+	  font-weight: 700
+	  margin-right: -70px
+	  font-size: 60px
+ 	  line-height: 111.19%
+	  text-transform: uppercase
+	  letter-spacing: -0.025em
+	  color: rgba(0, 0, 0, 0.9);
+  p
+	  color: #000000
+	  font-size: 27px
+	  margin-right: 200px
 	  /** max-width: 750px  **/
 .slides
   opacity: 0
@@ -186,7 +185,7 @@ p
   -moz-transform: translateX(3in)
   -o-transform: translateX(3in)
   transform: translateX(3in)
-  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s
+  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s 
   -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s
   -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s
   transition: transform ease-in-out .5s, opacity ease-in-out .5s
@@ -194,46 +193,48 @@ p
   animation-name: slidein
   animation-iteration-count: infinite
 
-&_btn
-	display: block
-	width: 368.98px
-	height: 70.71px
-	left: 536.51px
-	top: 598.12px
-	margin: 40px 0 0 340px
-	border: none
-	background: #633778
-	border-radius: 180px
-	font-size: 37px
-	line-height: 30px
-	text-transform: uppercase
-	color: #FFFFFF
-	text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.13)
-	box-shadow: 0 0 4px rgba(0,0,0,1.5)
-	font-weight: 100
-	line-height: 140%
-	font-size: 27px
-	text-transform: uppercase
-	color: #FFFFFF
-	font-weight: 100
-	text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.13)
-	&:hover
-		content: ''
-		width: 465.87px
-		height: 155.58px
-		left: 120.45px
-		top: 570px
-		font-weight: 100
-		transition: 0.5s
-	&:hover:after
-		content: '\A +7 (4752) 72-96-95\A +7 (4752) 72-96-95'
-		white-space: pre
-		transition: 0.5s
-		font-weight: 300
-		font-size: 24px
-		line-height: 140%
-		letter-spacing: 0.04em
-		font-variant: small-caps
+  &_btn
+	  display: block
+	  width: 368.98px;
+	  height: 70.71px;
+	  left: 536.51px;
+	  top: 598.12px;
+	  margin: 40px 0 0 340px
+	  border: none
+	  background: #633778
+	  border-radius: 180px
+	  font-size: 37px
+	  line-height: 30px
+	  text-transform: uppercase
+	  color: #FFFFFF
+	  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.13)
+	  box-shadow: 0 0 4px rgba(0,0,0,1.5)
+	  font-weight: 100  
+	  line-height: 140%
+	  font-size: 27px
+	  text-transform: uppercase
+	  color: #FFFFFF
+	  font-weight: 100  
+	  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.13)
+	  &:hover
+		  content: ''
+		  width: 465.87px
+		  height: 155.58px
+		  left: 120.45px
+		  top: 570px
+		  font-weight: 100
+		  transition: 0.5s	
+	  &:hover:after
+		  content: '\A +7 (4752) 72-96-95\A +7 (4752) 72-96-95'
+		  white-space: pre
+		  transition: 0.5s
+		  font-weight: 300
+		  font-size: 24px
+		  line-height: 140%
+		  letter-spacing: 0.04em
+		  font-variant: small-caps
+
+
 
 #slide1:checked ~ .slider > .slide1, #slide2:checked ~ .slider > .slide2, #slide3:checked ~ .slider > .slide3, #slide4:checked ~ .slider > .slide4, #slide5:checked ~ .slider > .slide5
   opacity: 1
@@ -244,35 +245,36 @@ p
   transform: scale(1)
 
 .wrapper
-> input
-	display: none
+  > input
+    display: none
 
-.controls
-	left: 50%
-	margin-left: -98px
-	position: absolute
+  .controls
+    left: 50%
+    margin-left: -98px
+    position: absolute
 
-label
-	cursor: pointer
-	display: inline-block
-	height: 20px
-	margin: 37px 23px 0 16px
-	position: relative
-	width: 20px
-	-webkit-border-radius: 50%
-	-moz-border-radius: 50%
-	-o-border-radius: 50%
-	border-radius: 50%
-	-webkit-transition: background ease-in-out .5s
-	-moz-transition: background ease-in-out .5s
-	-o-transition: background ease-in-out .5s
-	transition: background ease-in-out .5s
+  label
+    cursor: pointer
+    display: inline-block
+    height: 20px
+    margin: 37px 23px 0 16px
+    position: relative
+    width: 20px
+    -webkit-border-radius: 50%
+    -moz-border-radius: 50%
+    -o-border-radius: 50%
+    border-radius: 50%
+    -webkit-transition: background ease-in-out .5s
+    -moz-transition: background ease-in-out .5s
+    -o-transition: background ease-in-out .5s
+    transition: background ease-in-out .5s
 
-	&:hover
+    &:hover
       background: #ddd
 
 #slide1:checked ~ .controls label:nth-of-type(1), #slide2:checked ~ .controls label:nth-of-type(2), #slide3:checked ~ .controls label:nth-of-type(3), #slide4:checked ~ .controls label:nth-of-type(4), #slide5:checked ~ .controls label:nth-of-type(5)
   background: #ddd
+  
 
 .wrapper label:after
   border: 2px solid #ddd
@@ -288,6 +290,8 @@ label
   -o-border-radius: 50%
   border-radius: 50%
 
+
+
 .clinic
 	background: linear-gradient(to left, rgba(200, 188, 217, 0.39) 50%, transparent 50%)
 	width: 100%
@@ -296,8 +300,8 @@ label
 		display: inline-block
 		float: left
 		width: 51%
-		text-align: justify
-.title
+		text-align:justify
+.title	
 	position: relative
 	margin-bottom: 0
 	margin-top: 103px
@@ -316,14 +320,14 @@ label
 	font-weight: 700
 	text-transform: uppercase
 	text-align: left
-	color: #694382
+	color: #694382	
 .director
 	/** background: rgba(200, 188, 217, 0.39); **/
 	float: right
 	width: 49%
-	margin: 100px 50px
-	text-align: justify
-	display: inline-block
+    margin: 100px 50px
+    text-align: justify
+    display: inline-block
 	p
 		margin: 103px 0 125px 153px
 		font-weight: 200
@@ -358,16 +362,16 @@ label
 	li
 		list-style-image: url('../icons/arrowul.png')
 		&:hover
-			content: ''
+			content: '' 
 			list-style-image: url('../icons/arrowrl.png')
 
 .clinic_slider
-	margin: 325px auto 126px
-
+	margin: 325px auto 126px 				
+  
 .services
-	width: 100%
+	width: 100% 
 	min-height: 846px
-	margin-right:
+	margin-right: 
 	padding: 65px 5px 79px 0
 	&_title
 		text-align: center
@@ -377,12 +381,12 @@ label
 		line-height: 46px
 		letter-spacing: -0.025em
 		text-transform: uppercase
-		color: rgba(0, 0, 0, 0.9)
+		color: rgba(0, 0, 0, 0.9)	
 .link_sevice
 	padding-left: 65px
 	&_hygiene
 		padding-left: 45px
-
+		
 .service_item
 	position: relative
 	background: #E6DDEF
@@ -412,7 +416,7 @@ label
 			margin-bottom: 8px
 			padding-right: 40px
 			color: rgba(74, 66, 82, 0.76)
-			list-style-image: url('../icons/arrowblack.png')
+			list-style-image: url('../icons/arrowblack.png')		
 	&_hygiene
 		position: absolute
 		background: #EFECF4
@@ -420,14 +424,14 @@ label
 		width: 290px
 		height: 280px
 		margin: 0
-		right: 28px
+		right: 28px	
 		h3
 			font-size: 21px
 			font-weight: 500
 			line-height: 31px
-			padding-bottom: 5px
+			padding-bottom: 5px 
 			text-transform: uppercase
-
+			
 		li
 			font-weight: 500
 			font-size: 13px
@@ -435,7 +439,7 @@ label
 			letter-spacing: 0.06em
 			margin-bottom: 13px
 			color: rgba(74, 66, 82, 0.76)
-			list-style-image: url('../icons/arrowblack.png')
+			list-style-image: url('../icons/arrowblack.png')		
 	&_white
 		position: absolute
 		background: #EFECF4
@@ -443,7 +447,7 @@ label
 		width: 290px
 		height: 280px
 		margin: 0
-		right: 10px
+		right: 10px	
 		h3
 			font-size: 25px
 			font-weight: 500
@@ -457,10 +461,10 @@ label
 			margin-top: 38px
 			margin-bottom: 13px
 			color: rgba(74, 66, 82, 0.76)
-			list-style-image: url('../icons/arrowblack.png')
+			list-style-image: url('../icons/arrowblack.png')						
 	&_subtitle
 		text-align: center
-		padding: 38px 0 0 0
+		padding: 38px 0 0 0 
 	h3
 		font-size: 25px
 		font-weight: 500
@@ -479,12 +483,12 @@ label
 	position: absolute
 	bottom: 1px
 	width: 197px
-	height: 36px
+	height: 36px	
 	background: rgba(105, 67, 130, 0.61)
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1)
 	border: none
 	border-radius: 48px
-	margin: 0 41px 41px 45px
+	margin: 0 41px 41px 45px 
 	font-weight: bold
 	font-size: 14px
 	line-height: 22px
@@ -493,12 +497,14 @@ label
 	&:hover
 		content: ''
 		background: #896F9B
-		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1)
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1)	
 		transition: 0.3s all
 
 .doctors
-	width: 532px
-	height: 841.47px
+	width: 532px;
+	height: 841.47px;
+	left: 0px;
+	top: 2582.33px;
 	&_text
 		width: 715px
 		height: 532px
@@ -512,16 +518,16 @@ label
 			text-transform: uppercase
 			color: #7A648A
 		p
-			margin: 34px 212px 0 0
+			margin: 34px 230px 0 0
 			font-weight: 200
 			font-size: 18px
 			line-height: 31px
 			text-align: justify
-			letter-spacing: 0.015em
+			letter-spacing: 0.015em	
 	&_guarantees
 		position: absolute
 		width: 467px
-		height: 671px
+		height: 635px
 		left: 1052px
 		top: 2753px
 		background: rgba(230, 221, 239, 0.62)
@@ -532,18 +538,75 @@ label
 			text-align: justify
 			letter-spacing: 0.015em
 			color: #7A648A
-			margin: 26px 182px 0 24px
+			margin: 26px 132px 0 24px   
 
-.service_logo
+.information
+	width: 100%
+	height: 671.23px
 	position: relative
+	.title
+		margin: 73px 0 52px 0
+	.clinic_rileeva
+		position: absolute
+		left: 50%
+		list-style-type: none
+		li
+			margin: 32px 0 32px 0 
+			font-size: 20px
+			line-height: 28px
+			text-align: justify
+			letter-spacing: -0.025em
+			color: #000000
+		.world_link
+			text-transform: uppercase
+			color: black
+			text-decoration: none	
+		.small_link	
+			text-decoration: none
+			color: #000000
+			font-weight: 200
+			font-size: 20px
+			line-height: 29px
+			text-align: justify
+			letter-spacing: -0.015em
+	.clinic_chichkanova
+		position: absolute
+		list-style-type: none
+		left: 20%
+		li
+			margin: 32px 0 32px 0 
+			font-size: 20px
+			line-height: 28px
+			text-align: justify
+			letter-spacing: -0.025em
+			color: #000000
+		.world_link
+			text-transform: uppercase
+			color: black
+			text-decoration: none
+			font-weight: 300	
+		.small_link	
+			text-decoration: none
+			color: #000000
+			font-weight: 200
+			font-size: 20px
+			line-height: 29px
+			text-align: justify
+			letter-spacing: -0.015em
+
+			
+	
+		
+.service_logo
+	position: relative 
 	width: 161px
 	height: 280px
 	img
 		padding: 100px 0 0 44px
 .service_logo_up
 	img
-		padding: 100px 0 0 64px
-	&_item
+		padding: 100px 0 0 64px		
+	&_item 
 		position: relative
 		width: 320px
 		height: 280px
@@ -570,7 +633,7 @@ label
 			text-transform: uppercase
 			text-align: center
 		&_plus
-			display: flex
+			display: flex 
 			justify-content: center
 			align-items: center
 			position: absolute
@@ -586,41 +649,42 @@ label
 			&:before
 				content: ''
 				display: block
-				width: 14px
-				height: 2px
+				width: 14px 
+				height: 2px 
 				background-color: $main-color
 				transition: 0.3s all
-			&:after
+			&:after 
 				content: ''
-				position: absolute
+				position: absolute 
 				left: 50%
 				transform: translateX(-50%)
-				display: block
+				display: block 
 				height: 14px
 				width: 2px
 				background-color: $main-color
 				transition: 0.3s all
-			&:hover
-				&:before, &:after
+			&:hover 
+				&:before, &:after 
 					background-color: $second-color
 
-.choice
+
+.choice 
 	position: relative
 	min-height: 895px
 	padding: 57px 0 138px 0
 	background: url('../img/bg/mobile_app.png') center (center / cover) no-repeat
-	&_img
+	&_img 
 		position: relative
 		display: block
 		margin: 56px auto 0 auto
 		z-index: 2
-	&_descr
+	&_descr 
 		text-align: center
 		color: #222222
 		font-size: 17px
 		font-weight: 300
 		line-height: 24px
-	.black
+	.black 
 		position: absolute
 		top: 0
 		left: 0
@@ -629,10 +693,11 @@ label
 		background-color: #070716
 		z-index: 1
 
-footer
+
+footer 
 	padding: 14px 23px 39px 23px
-	a
-		&:hover
+	a 
+		&:hover 
 			text-decoration: none
 .footer
 	&_divider
@@ -641,53 +706,53 @@ footer
 		background-color: #1fbad6
 		margin: 0 auto
 	&_wrapper
-		display: flex
+		display: flex 
 		justify-content: space-between
 		align-items: flex-start
 		padding-top: 32px
-	&_wrapper > div
+	&_wrapper > div 
 		width: 33%
 		&:nth-child(3)
-			display: flex
+			display: flex 
 			justify-content: flex-end
 	&_social
 		width: 160px
 		display: flex
 		justify-content: space-between
-		&_item
-			display: flex
+		&_item 
+			display: flex 
 			justify-content: center
 			align-items: center
-			margin: 0 4px
+			margin: 0 4px 
 			width: 32px
 			height: 32px
 			background-color: #070716
 			border-radius: 100%
-			i
+			i 
 				color: #fff
 	&_links
 		width: 390px
 		margin: 0 auto
-		&_main
-			display: flex
+		&_main 
+			display: flex 
 			justify-content: space-between
 			padding: 0 10px
-			a
+			a 
 				color: #070716
 				font-size: 15px
 				font-weight: 300
 				text-transform: uppercase
-		&_sub
-			display: flex
+		&_sub 
+			display: flex 
 			justify-content: space-between
 			margin-top: 10px
-			a
+			a 
 				color: #999999
 				font-size: 11px
 				font-weight: 300
 				text-transform: uppercase
-		&_lang
-			display: block
+		&_lang 
+			display: block 
 			margin: 0 auto
 			color: #1fbad6
 			font-size: 11px
