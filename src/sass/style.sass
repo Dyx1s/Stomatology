@@ -572,7 +572,6 @@ nav
 			text-align: justify
 			letter-spacing: -0.025em
 			color: #000000
-			
 		.icon
 			margin-left: -40px
 		.world_link
@@ -602,51 +601,92 @@ nav
 				font-weight: 300
 				color: #633778
 				transition: all
-		.more_link, .time
+		.more_link
 			text-decoration: none
 			font-size: 15px
 			line-height: 26px
 			text-align: justify
 			letter-spacing: 0.015em
 			color: #695971
-			margin-right: 22px
-			&:hover
-				text-decoration: none
-				font-weight: 300
-				color: #633778
-				transition: all			
 			
-.choice 
-	position: relative
-	min-height: 895px
-	padding: 57px 0 138px 0
-	background: url('../img/bg/mobile_app.png') center (center / cover) no-repeat
-	&_img 
+
+
+.service_logo
+	position: relative 
+	width: 161px
+	height: 280px
+	img
+		padding: 100px 0 0 44px
+.service_logo_up
+	img
+		padding: 100px 0 0 64px		
+	&_item 
 		position: relative
-		display: block
-		margin: 56px auto 0 auto
-		z-index: 2
-	&_descr 
-		text-align: center
-		color: #222222
-		font-size: 17px
-		font-weight: 300
-		line-height: 24px
-	.black 
-		position: absolute
-		top: 0
-		left: 0
-		height: 499px
-		width: 100%
-		background-color: #070716
-		z-index: 1
+		width: 320px
+		height: 280px
+		margin: 0 auto
+		margin-bottom: 19px
+		padding-top: 92px
+		&_1
+			background: url('../img/bg/mobile_screen_1.jpg') center (center / cover) no-repeat
+		&_2
+			background: url('../img/bg/mobile_screen_2.jpg') center (center / cover) no-repeat
+		&_3
+			background: url('../img/bg/mobile_screen_3.jpg') center (center / cover) no-repeat
+		&_4
+			background: url('../img/bg/mobile_screen_4.jpg') center (center / cover) no-repeat
+		&_5
+			background: url('../img/bg/mobile_screen_5.jpg') center (center / cover) no-repeat
+		&_6
+			background: url('../img/bg/mobile_screen_6.jpg') center (center / cover) no-repeat
+		&_subtitle
+			color: #ffffff
+			font-size: 24px
+			font-weight: 400
+			line-height: 31px
+			text-transform: uppercase
+			text-align: center
+		&_plus
+			display: flex 
+			justify-content: center
+			align-items: center
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%)
+			width: 26px
+			height: 26px
+			background-color: #000000
+			margin: 0 auto
+			border-radius: 100%
+			cursor: pointer
+			&:before
+				content: ''
+				display: block
+				width: 14px 
+				height: 2px 
+				background-color: $main-color
+				transition: 0.3s all
+			&:after 
+				content: ''
+				position: absolute 
+				left: 50%
+				transform: translateX(-50%)
+				display: block 
+				height: 14px
+				width: 2px
+				background-color: $main-color
+				transition: 0.3s all
+			&:hover 
+				&:before, &:after 
+					background-color: $second-color
+
 
 
 footer 
-	padding: 14px 23px 39px 23px
-	a 
-		&:hover 
-			text-decoration: none
+	padding: 0 23px 0 23px
+	background: #CAC1D5
+
 .footer
 	&_divider
 		width: 299px
@@ -658,55 +698,27 @@ footer
 		justify-content: space-between
 		align-items: flex-start
 		padding-top: 32px
-	&_wrapper > div 
-		width: 33%
-		&:nth-child(3)
-			display: flex 
-			justify-content: flex-end
 	&_social
-		width: 160px
+		width: 300px
 		display: flex
-		justify-content: space-between
-		&_item 
-			display: flex 
-			justify-content: center
-			align-items: center
-			margin: 0 4px 
-			width: 32px
-			height: 32px
-			background-color: #070716
-			border-radius: 100%
-			i 
-				color: #fff
+		justify-content: center
+		font-size: 10px;
+		line-height: 12px;
+		font-variant: small-caps;
+		color: #090909;
+		margin-left: 130px 
+
 	&_links
 		width: 390px
 		margin: 0 auto
-		&_main 
-			display: flex 
-			justify-content: space-between
-			padding: 0 10px
-			a 
-				color: #070716
-				font-size: 15px
-				font-weight: 300
-				text-transform: uppercase
-		&_sub 
-			display: flex 
-			justify-content: space-between
-			margin-top: 10px
-			a 
-				color: #999999
-				font-size: 11px
-				font-weight: 300
-				text-transform: uppercase
-		&_lang 
-			display: block 
-			margin: 0 auto
-			color: #1fbad6
-			font-size: 11px
-			font-weight: 400
-			margin-top: 19px
-			text-transform: uppercase
-			text-align: center
-
+		font-size: 10px;
+		line-height: 12px;
+		font-variant: small-caps;
+		color: #090909;
 	&_mobile
+		width: 390px
+		margin: 0 auto
+		font-size: 10px;
+		line-height: 12px;
+		font-variant: small-caps;
+		color: #090909;
